@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 16px;
   background-color: var(--color-bg-page-slot);
 }
 
