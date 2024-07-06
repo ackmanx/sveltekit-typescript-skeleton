@@ -7,11 +7,12 @@
   const stylesForDocs = documents.map((doc, index) => {
     const top = Math.floor(Math.random() * 100)
     const left = Math.floor(Math.random() * 100)
+    const fontSize = Math.ceil(index / 2)
 
-    let styles = `position: absolute; top: ${top}vh; left: ${left}vw;`
+    let styles = `position: absolute; top: ${top}vh; left: ${left}vw; font-size: ${fontSize}px;`
 
     if (index === documents.length - 1) {
-      styles = `${styles}color: var(--color-background); font-size: 36px; background-color: var(--color-text); padding: 8px; border-radius: 10px`
+      styles = `${styles}color: var(--color-background); background-color: var(--color-text); padding: 8px; border-radius: 10px`
     }
 
     return styles
