@@ -11,7 +11,6 @@
 
 <!-- svelte-ignore component_name_lowercase -->
 <page>
-  <h1>Hello World</h1>
   <ul>
     {#each stuff as doc}
       <li>
