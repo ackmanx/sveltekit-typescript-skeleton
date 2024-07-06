@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from '$app/stores'
+  import { DateTime } from 'luxon'
 
   const stuff = $page.data.collectionDocuments
 </script>
@@ -14,7 +15,7 @@
   <ul>
     {#each stuff as doc}
       <li>
-        {doc.createdForTesting}
+        {DateTime.fromISO(doc.createdForTesting).toRelative()}
       </li>
     {/each}
   </ul>
