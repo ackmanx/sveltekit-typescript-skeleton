@@ -11,7 +11,7 @@
     let styles = `position: absolute; top: ${top}vh; left: ${left}vw;`
 
     if (index === documents.length - 1) {
-      styles = `${styles}color: var(--color-bg-page-slot); font-size: 36px; background-color: var(--color-text); padding: 8px; border-radius: 10px`
+      styles = `${styles}color: var(--color-background); font-size: 36px; background-color: var(--color-text); padding: 8px; border-radius: 10px`
     }
 
     return styles
