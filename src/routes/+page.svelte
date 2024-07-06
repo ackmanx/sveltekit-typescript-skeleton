@@ -9,7 +9,7 @@
     const left = Math.floor(Math.random() * 100)
     const fontSize = Math.ceil(index / 2)
 
-    let styles = `position: absolute; top: ${top}vh; left: ${left}vw; font-size: ${fontSize}px;`
+    let styles = `position: absolute; top: ${top}vh; left: ${left}vw; font-size: ${fontSize}px; width: 100%;`
 
     if (index === documents.length - 1) {
       styles = `${styles}color: var(--color-background); background-color: var(--color-text); padding: 8px; border-radius: 10px`
