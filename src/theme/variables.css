@@ -21,19 +21,13 @@
   --font-body: 'Open Sans Variable', 'Helvetica Neue', sans-serif;
   --font-header: 'Open Sans Variable', 'Helvetica Neue', sans-serif;
 
-  --color-bg-sidebar: #f5f5f5;
-  --color-bg-page-slot: #ffffff;
-  --color-bg-another-color: #f5f5f5;
-  --color-accent: #df518b;
+  --color-background: #f5f5f5;
   --color-text: rgba(0, 0, 0, 0.7);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg-sidebar: #232526;
-    --color-bg-page-slot: #1d1f20;
-    --color-bg-another-color: #434a4b;
-    --color-accent: #df518b;
+    --color-background: #1d1f20;
     --color-text: #e3e1de;
   }
 }
