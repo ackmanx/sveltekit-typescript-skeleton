@@ -4,11 +4,17 @@
 
   const documents = $page.data.collectionDocuments
 
-  const stylesForDocs = documents.map(() => {
+  const stylesForDocs = documents.map((doc, index) => {
     const top = Math.floor(Math.random() * 100)
     const left = Math.floor(Math.random() * 100)
 
-    return `position: absolute; top: ${top}vh; left: ${left}vw`
+    let styles = `position: absolute; top: ${top}vh; left: ${left}vw;`
+
+    if (index === documents.length - 1) {
+      styles = `${styles}color: var(--color-bg-page-slot); font-size: 36px; background-color: var(--color-text); padding: 8px; border-radius: 10px`
+    }
+
+    return styles
   })
 </script>
 
