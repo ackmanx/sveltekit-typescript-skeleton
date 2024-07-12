@@ -4,29 +4,5 @@ body {
   background-color: var(--color-background);
 }
 
-a {
-  color: var(--color-text);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-button {
-  cursor: pointer;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  font-family: var(--font-header);
-}
-
 @media (prefers-color-scheme: dark) {
 }

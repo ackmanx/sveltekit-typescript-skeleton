@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: var(--font-header);
+  font-family: var(--font-family-text);
   color: var(--color-text);
 }
 
@@ -41,7 +41,7 @@ h5,
 h6,
 p {
   margin: 0;
-  font-family: var(--font-header);
+  font-family: var(--font-family-header);
 }
 
 svg {
