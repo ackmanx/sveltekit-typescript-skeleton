@@ -10,6 +10,7 @@ declare global {
       collectionDocuments: {
         createdForTesting: string
       }[]
+      error?: string
     }
   }
 }

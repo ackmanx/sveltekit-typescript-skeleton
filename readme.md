@@ -15,11 +15,11 @@ Server endpoints will check for that cookie to get the username, such as:
 ```typescript
 const username = cookies.get('username')
 
-  if (!username) {
+if (!username) {
     return {
       error: 'You need to hit /sign-in/<username> first to set your username',
-    }
   }
+}
 ```
 
 ## Intellij - Imports not showing up as errors if file not found
