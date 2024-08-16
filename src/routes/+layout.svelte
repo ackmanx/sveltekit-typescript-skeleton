@@ -1,4 +1,5 @@
 <script lang="ts">
+  import '$theme/reset.css'
   import '$theme/variables.css'
   import '$theme/custom-components.css'
   import '$theme/global.css'
